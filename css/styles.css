@@ -1,0 +1,294 @@
+.bluebar {
+position:fixed;
+width:100%;
+height:80px;
+background:#cf8e25;
+top:0;
+left:0;
+color:white;
+z-index:7;
+font-family:verdana;
+}
+
+#img {left:60px;
+height:50px;
+top:12px;}
+
+#searcharea{top:17px;
+left:240px;
+height:40px;
+}
+
+#searchbox{width:500px;
+height:26px;
+background:white;
+padding:5px;
+outline:none;
+border-radius: 10px/10px;
+background-image:url(sr.png);
+background-position:465px;
+background-repeat:no-repeat;
+}
+
+#searchpic {
+  height:50px;
+  top:12px;
+  left: 760px;
+}
+
+#dropdown {
+  left: 1000px;
+}
+
+#buttondd {
+  background-color: #7a240a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  left: 1000px;
+  width: 160px;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  top: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+}
+
+#l1 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#l1 {background-color: #ddd;}
+
+#dropdown:hover #dropdown-content {display: block;}
+
+#dropdown:hover #buttondd {background-color: #3e8e41;}
+
+.secondbar {
+position:fixed;
+width:100%;
+height:60px;
+background:#ada899;
+top:80px;
+left:0;
+color:white;
+z-index:2;
+font-family:verdana;
+}
+
+#dropdown2 {
+  left: 250px;
+}
+
+#buttondd2 {
+  background-color: #ada899;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  left: 250px;
+  width: 160px;
+}
+
+#dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  top: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+#l1 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#l1 {background-color: #ddd;}
+
+#dropdown2:hover #dropdown-content2 {display: block;}
+
+#dropdown2:hover #buttondd2 {background-color: #3f72b0;}
+
+#dropdown3 {
+  left: 500px;
+}
+
+#buttondd3 {
+  background-color: #ada899;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  left: 500px;
+  width: 160px;
+}
+
+#dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  top: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+#l1 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#l1 {background-color: #ddd;}
+
+#dropdown3:hover #dropdown-content3 {display: block;}
+
+#dropdown3:hover #buttondd3 {background-color: #3f72b0;}
+
+#dropdown4 {
+  left: 750px;
+}
+
+#buttondd4 {
+  background-color: #ada899;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  left: 750px;
+  width: 160px;
+}
+
+#dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  top: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+#l1 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#l1 {background-color: #ddd;}
+
+#dropdown4:hover #dropdown-content4 {display: block;}
+
+#dropdown4:hover #buttondd4 {background-color: #3f72b0;}
+
+
+.sidebar {
+  top:170px;
+left:30px;
+position:absolute;
+width:200px;
+height:740px;
+font-family:sans-serif;
+z-index: 1;
+}
+
+.post1 {
+top:170px;
+left:230px;
+height: 300px;
+width:100%;
+background:white;
+border-radius:3px/3px;
+position:absolute;
+}
+
+#iphone {
+  height: 300px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  position:absolute;
+}
+
+p1 {
+  color:#7a240a;
+font-family:verdana;
+font-size:20px;
+}
+
+p2 {
+  color:#451304;
+font-family:verdana;
+font-size:40px;
+}
+
+#name {
+  position:absolute;
+  left: 403px;
+  top: 0px;
+}
+
+#add {
+  width: 160px;
+  height: 45px;
+  left: 30px;
+  top: 230px;
+  position:absolute;
+}
+
+#price {
+  left: 870px;
+  top: 120px;
+  position:absolute;
+}
+
+.post2 {
+  top:490px;
+  left:230px;
+  height: 300px;
+  width:100%;
+  position:absolute;
+  background:white;
+  border-radius:3px/3px;
+  position:absolute;
+}
+
+#redmipro {
+  height: 300px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+}
+
+.post3 {
+  top:800px;
+  left:230px;
+  height: 300px;
+  width:100%;
+  position:absolute;
+  background:white;
+  border-radius:3px/3px;
+  position:absolute;
+}
+
+#samgalaxy {
+  height: 300px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+}
